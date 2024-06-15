@@ -8,9 +8,9 @@ import {convertDataToCsv} from "./utils/csvHandler/index.js";
 (async () => {
   const commandLineArgs = process.argv.slice(2);
   const options = {
-    country: null,
-    league: null,
-    headless: false,
+    country: "europe",
+    league: "euro",
+    headless: true,
     outputPath: "./src/data",
     fileType: "json"
   };
